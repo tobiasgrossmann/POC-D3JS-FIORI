@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FIBA Radar</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="l-wrapper">
+		<input id="radar-slider" type="range" min="0.1" max="1" step="0.1" value="1"/>
+		<label for="checkbox_fgm"><input type="checkbox" name="checkbox_fgm" id="checkbox_fgm" value="23" />Field Goals (M)</label>
+		<label for="checkbox_fga"><input type="checkbox" name="checkbox_fga" id="checkbox_fga" value="59" />Field Goals (A)</label>
+		<label for="checkbox_ftm"><input type="checkbox" name="checkbox_ftm" id="checkbox_ftm" value="8" />Free Throws (M)</label>
+		<label for="checkbox_fta"><input type="checkbox" name="checkbox_fta" id="checkbox_fta" value="13" />Free Throws (A)</label>
+		<label for="checkbox_or"><input type="checkbox" name="checkbox_or" id="checkbox_or" value="11" />Rebounds (OR)</label>
+		<label for="checkbox_dr"><input type="checkbox" name="checkbox_dr" id="checkbox_dr" value="20" />Rebounds (DR)</label>
+		<label for="checkbox_pf"><input type="checkbox" name="checkbox_pf" id="checkbox_pf" value="24" />PF</label>
+		<div id="idMain--d3placeholdertabnetdiag" data-sap-ui="idMain--d3placeholdertabnetdiag" class="column2 sapMFlexBox sapMFlexItem sapMHBox" style="display:flex;justify-content:center;align-items:center">
+			<div id="idMain--d3placeholdertabnetdiagChart" data-sap-ui="idMain--d3placeholdertabnetdiagChart" class="sapMFlexBox sapMFlexItem sapMHBox" style="display:flex;justify-content:center;align-items:center">
+			</div>
+		</div>
+	</div>
+	<script src="resources/d3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/underscore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/chart_radar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/chart_chord.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

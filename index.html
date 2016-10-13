@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FIBA Prototype</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="l-wrapper">
+		<img id="view-live" src="assets/01_Live_Prognose.png" alt="">
+		<a href="team.html" id="esp"></a>
+		<a href="#" id="foul"></a>
+		<a href="foul.html" id="foul-tooltip">
+			<img src="assets/foul-tooltip.png" alt="">
+		</a>
+		<input id="radar-slider" type="range" min="0.1" max="1" step="0.1" value="1"/>
+		<div id="radar-wrapper">
+			<div id="idMain--d3placeholdertabnetdiag" data-sap-ui="idMain--d3placeholdertabnetdiag" class="column2 sapMFlexBox sapMFlexItem sapMHBox" style="display:flex;justify-content:center;align-items:center">
+				<div id="idMain--d3placeholdertabnetdiagChart" data-sap-ui="idMain--d3placeholdertabnetdiagChart" class="sapMFlexBox sapMFlexItem sapMHBox" style="display:flex;justify-content:center;align-items:center">
+				</div>
+			</div>
+		</div>
+		<!--div id="ticker">
+			<div class="ticker-wrapper">
+				<div class="ticker-unit">A</div>
+				<div class="ticker-unit">B</div>
+				<div class="ticker-unit">C</div>
+				<div class="ticker-unit">D</div>
+				<div class="ticker-unit">E</div>
+				<div class="ticker-unit">A</div>
+			</div>
+		</div-->
+	</div>
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script-->
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/velocity.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/d3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/underscore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/chart_radar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="resources/chart_chord.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

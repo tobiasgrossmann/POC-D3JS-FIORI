@@ -1,0 +1,200 @@
+@font-face {
+	font-family: "BebasRegular";
+	src: url("../assets/BebasNeue-Regular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	background-color: #1C1C1C;
+}
+
+.l-wrapper {
+	min-width: 1022px;
+	max-width: 1022px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#view-live {
+	display: block;
+	width: 1022px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+a#esp {
+	display: block;
+	width: 330px;
+	height: 60px;
+	/*background-color: salmon;*/
+	position: absolute;
+	top: 440px;
+	left: 386px;
+}
+
+a#esp:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+a#foul {
+	display: block;
+	width: 438px;
+	height: 29px;
+	/*background-color: salmon;*/
+	position: absolute;
+	top: 268px;
+	left: 43px;
+}
+
+a#foul:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+a#foul-back {
+	display: block;
+	width: 90px;
+	height: 25px;
+	/*background-color: salmon;*/
+	position: absolute;
+	top: 38px;
+	left: 42px;
+}
+
+a#foul-tooltip {
+	display: none;
+	position: absolute;
+	top: 291px;
+	left: 296px;
+}
+
+a#foul-back:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+a#team-back {
+	display: block;
+	width: 74px;
+	height: 25px;
+	/*background-color: salmon;*/
+	position: absolute;
+	top: 38px;
+	left: 42px;
+}
+
+a#team-back:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.radar-placer {
+	position: absolute;
+	top: 70px;
+	right: -10px;
+	width: 520px;
+	height: 520px;
+}
+
+.shadoow {
+	background-color: #1C1C1C;
+	position: absolute;
+	top: 70px;
+	right: -10px;
+	width: 450px;
+	height: 450px;
+}
+
+#radar-wrapper {
+	display: block;
+	width: 320px;
+	height: 310px;
+	position: absolute;
+	top: 699px;
+	left: 50%;
+	margin-left: 210px;
+	background-color: #1C1C1C;
+	position: absolute;
+}
+
+.tooltipoff {
+	font-family: "BebasRegular";
+	font-size: 20px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: white;
+}
+
+#chord-wrapper .tooltipoff {
+	top: -47px;
+	left: 33px;
+}
+
+#chord-wrapper .tooltipcover {
+	display: block;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: -47px;
+	left: 33px;
+	background-color: #1C1C1C;
+}
+
+#circle:hover path.fade {
+	display: none;
+}
+
+label {
+	display: block;
+	font-family: "BebasRegular";
+	font-size: 20px;
+	color: white;
+}
+
+#chord-wrapper {
+	width: 520px;
+	height: 438px;
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	background-color: #1C1C1C;
+}
+
+#ticker {
+	border: 1px solid lightgreen;
+	width: 680px;
+	height: 20px;
+	position: absolute;
+	top: 330px;
+	left: 10px;
+	overflow: hidden;
+}
+
+#ticker:after {
+	clear: both;
+}
+
+.ticker-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ticker-unit {
+	display: block;
+	width: 680px;
+	background-color: salmon;
+	border: 1px solid white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
